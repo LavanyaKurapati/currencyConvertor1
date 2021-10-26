@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.main-container {
+    background-color: blue;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+    font-family: sans-serif;
+}
+
+.sub-container {
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+}
+
+.label-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.label-text {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.input-text {
+    padding: 5px;
+    border: 1px solid blue;
+    border-radius: 8px;
+}
+
+.currency {
+    text-align: left;
+    font-size: 12px;
+    border: 1px solid blue;
+    padding: 5px;
+    border-radius: 7px;
+    font-family: sans-serif;
+    width: 90px;
+}
+
+.dropdown-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.icon-container {
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.button {
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.text {
+    font-family: sans-serif;
+    color: white;
+    font-style: italic;
+    font-size: 22px;
+}
